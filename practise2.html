@@ -1,0 +1,317 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>template design</title>
+    <style>
+        body {
+            background-color: lightskyblue;
+        }
+
+        .container {
+            display: flex;
+            border-radius: 10px;
+            border: 2px solid whitesmoke;
+
+            flex-wrap: wrap;
+            margin: 40px auto;
+
+
+            width: 800px;
+            height: 550px;
+
+        }
+
+        .box-1 {
+            /* background-color: rgb(79, 59, 207);*/
+            background-image: url(images/image4.jpg);
+            background-repeat: no-repeat;
+            background-size: cover;
+            position: relative;
+            flex-direction: column;
+            width: 300px;
+            border-radius: 8px;
+            height: 550px;
+
+
+        }
+
+        .box-2 {
+            background-color: whitesmoke;
+            position: relative;
+            flex-direction: column;
+            width: 500px;
+            height: 550px;
+
+        }
+        /* box 1 design*/
+
+        .part1 {
+            justify-content: center;
+            margin: 0px 10PX;
+            padding: 0px 10px;
+
+
+        }
+
+        .logo img {
+            width: 50px;
+            filter: invert(0%);
+            border-radius: 25px;
+            margin: 10px;
+        }
+        .mid{
+            position: absolute;
+            display: block;
+            left: 85px;
+            top: 4px;
+            color: white;
+
+        }
+        .medium{
+            color: white;
+            text-align: center;
+            font-size: 25px;
+        }
+        .image2 img{
+            width: 150px;
+            filter: invert(0%);
+            border-radius: 10px;
+            margin: 50px;
+        }
+        
+
+        /* box 2 design*/
+
+        .part2 {
+            justify-content: center;
+            margin: 30px auto;
+            padding: 40px 40px;
+            /* border: 2px solid violet;*/
+
+        }
+
+        .reg {
+            color: navy;
+        }
+
+        .h4 {
+            color: navy;
+        }
+
+        /*form design
+        .form{
+            /*border: 2px solid lightsalmon;
+            width: 400px;
+            height: 300px;
+            padding: 10px 5px;
+            margin: 5px ;
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            background-color: lightgray;
+            
+        }*/
+        #form {
+            font-family: Georgia, 'Times New Roman', Times, serif;
+        }
+
+        .form1 input:hover {
+            border-color: blue;
+
+
+        }
+
+        .form1 {
+            margin: 5px 5px;
+            padding: 3px 3px;
+        }
+
+        input[type='text'] {
+            margin: 2px;
+            padding: 2px;
+            position: relative;
+            border-radius: 5px;
+            border: none;
+            font-size: 14px;
+            background-color: whitesmoke;
+            border: 2px solid lightgrey;
+
+            /* border: 2px solid darkorchid;*/
+
+
+        }
+
+        input[type='Number'] {
+            margin: 2px;
+            padding: 2px;
+            position: relative;
+            border-radius: 5px;
+            border: none;
+            font-size: 14px;
+            background-color: whitesmoke;
+            border: 2px solid lightgrey;
+            border-color: none;
+            color: -internal blue;
+
+
+            /* border: 2px solid darkorchid;*/
+
+
+        }
+
+        input[type='email'] {
+            margin: 2px;
+            padding: 2px;
+            position: relative;
+            border-radius: 5px;
+            border: none;
+            font-size: 14px;
+            background-color: whitesmoke;
+
+            border: 2px solid lightgrey;
+
+
+        }
+
+        input[type='password'] {
+            margin: 2px;
+            padding: 2px;
+            position: relative;
+            border-radius: 5px;
+            border: none;
+            font-size: 14px;
+            background-color: whitesmoke;
+            border: 2px solid lightgrey;
+
+            /* border: 2px solid darkorchid;*/
+
+
+        }
+
+
+        .check {
+            text-decoration: none;
+        }
+
+        .btn1 {
+            width: 200px;
+            background-color: rgb(12, 135, 236);
+            color: white;
+            cursor: pointer;
+            border-radius: 5px;
+            margin: 5px 25px;
+            padding: 10px;
+           border: none;
+            text-align: center;
+            font-size: 20px;
+        }
+
+        
+
+        .already {
+            color: rgb(12, 135, 236);
+        }
+
+        #log {
+            text-decoration: none;
+            color: rgb(15, 96, 247);
+        }
+    </style>
+
+
+</head>
+
+<body>
+    <div class="container">
+        <div class="box-1">
+            <div class="part1">
+            <header>
+                <div class="logo">
+                   <img src="C:\Program Files (x86)\web files\images\image5.jpg" alt="image"></img>
+                </div>
+                <div class="mid">
+                    <h4>Lottery display</h4>
+                </div>
+                
+             </header>
+             <section>
+        <div class="medium">
+            <p class="text">A few clicks away from creating your Lottery Display</p>
+        </div>
+    </section>
+    <section>
+        <div class="image2">
+            <img src="C:\Program Files (x86)\web files\images\image7.jpg" alt="image" ></img>
+        </div>
+    </section>
+    </div>
+
+
+        </div>
+        <div class="box-2">
+            <div class="part2">
+                <h2 class="reg">Register</h2>
+                <div>
+                    <section class="head">
+                        <h4 class="h4">Manage all lottery efficient</h4>
+                        <p>Let's get you all set up you can verify your personal account and begin setting up your
+                            profile
+                        </p>
+                    </section>
+                </div>
+                <hr>
+                <section>
+                    <form id="form" action="#" method="post" >
+                        <div class="form1" id="name">
+
+                            <input type="text" name="enter your name" placeholder=" First Name">
+
+                            <input type="text" name="enter your last name" placeholder=" last Name">
+                        </div>
+                        <div class="form1">
+
+                            <input type="number" name="enter your phone Number" placeholder="Phone Number">
+                            <input type="email" name="enter your email" placeholder="Email">
+                        </div>
+                        <div class="form1">
+                            <input type="password" name="password" placeholder="Enter your password">
+                            <input type="password" name="password" placeholder="confirm password">
+                        </div><br>
+
+                        <div class="form1">
+                            <input type="checkbox" value="box1" name="box1">Yes, I want to receive Lottery display
+                            emails</br>
+                            <input type="checkbox" value="box" name="box1"> I agree to all the <a href="#"
+                                target="_blank" class="check">term, Privacy, policy</a>&nbsp;and <a href="#" target="_blank" class="check" >&nbsp;fees</a>
+                        </div>
+                        <div class="form1">
+                            <button class="btn1" value="Create Account">Create Account</button>
+                        </div>
+                        <div class="form1">
+                            <h4 class="already">Already have an account? <a href="http://file:///C:/Program%20Files%20(x86)/web%20files/sampleproject.html" target="_blank" id="log">Log in</a></h4>
+                        </div>
+
+                    </form>
+                </section>
+
+            </div>
+
+
+
+
+
+        </div>
+
+    </div>
+    <script>
+        document.getElementById("form").addEventListener("submit", myFunction);
+
+        function myFunction() {
+            alert(`The form was Submitted Successfully`);
+        }
+    </script>
+</body>
+
+</html>
